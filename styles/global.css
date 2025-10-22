@@ -27,3 +27,9 @@ body {
   --font-family: "Asap", sans-serif;
 }
 
+.container {
+  max-width: 1366px;
+  padding-inline: 0px;
+  margin-inline: auto;
+}
+

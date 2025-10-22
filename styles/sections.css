@@ -1,0 +1,6 @@
+.intro {
+  background-image: url(/assets/bg-intro.png);
+  background-size: cover;
+  align-items: center;
+  height: 750px;
+}
