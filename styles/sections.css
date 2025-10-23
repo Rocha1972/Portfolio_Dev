@@ -1,3 +1,12 @@
+#container {
+  border: solid 1px blue;
+  max-width: 1366px;
+  margin-block: auto;
+  
+  background-image: url(/assets/bg-intro.png);
+  background-size: cover;
+}
+
 #intro {
   border: solid 1px green;
   height: 750px;
@@ -15,6 +24,12 @@
   }
 }
 
+#apresentacao {
+  border: solid 1px red;
+  margin-top: 56px;
+  text-align: center;
+}
+
 #tags {
   border: solid 1px yellow;
   display: flex;
@@ -22,18 +37,4 @@
   gap: 20px;
   margin-top: 80px;
   justify-content: space-between;
-}
-
-#container {
-  border: solid 1px blue;
-  max-width: 1366px;
-  margin-block: auto;
-  
-  background-image: url(/assets/bg-intro.png);
-  background-size: cover;
-}
-
-#apresentacao {
-  border: solid 1px red;
-  margin-top: 56px;
 }
