@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body {
@@ -36,12 +35,3 @@ body {
   --text-sm: 400 14px/140% var(--font-maven);
   --subtitle: 20px/120% var(--font-inconsolata);
 }
-
-.container {
-  display: flex;
-
-  max-width: 1366px;
-  padding-inline: 0px;
-  margin-inline: auto;
-}
-

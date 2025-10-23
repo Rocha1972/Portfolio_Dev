@@ -1,7 +1,39 @@
-.intro {
-  /* display: flex; */
-  /* background-image: url(/assets/bg-intro.png); */
-  /* background-size: cover; */
-  /* align-items: center; */
+#intro {
+  border: solid 1px green;
   height: 750px;
+  width: 800px;
+  margin: auto;
+  
+}
+
+#foto-user {
+  img {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    border: 4px solid var(--red); */
+  }
+}
+
+#tags {
+  border: solid 1px yellow;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 80px;
+  justify-content: space-between;
+}
+
+#container {
+  border: solid 1px blue;
+  max-width: 1366px;
+  margin-block: auto;
+  
+  background-image: url(/assets/bg-intro.png);
+  background-size: cover;
+}
+
+#apresentacao {
+  border: solid 1px red;
+  margin-top: 56px;
 }
