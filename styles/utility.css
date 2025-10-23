@@ -19,7 +19,7 @@
 }
 
 .subtitle {
-  font: var(--subtitle);
+  font: var(--h4);
 }
 
 .red {

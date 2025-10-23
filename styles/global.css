@@ -34,5 +34,5 @@ body {
   --h3: 800 16px/120% var(--font-asap);
   --text-md: 400 16px/140% var(--font-maven);
   --text-sm: 400 14px/140% var(--font-maven);
-  --subtitle: 20px/120% var(--font-inconsolata);
+  --h4: 20px/120% var(--font-inconsolata);
 }
