@@ -22,3 +22,27 @@
 
 
 }
+
+.title-lg {
+  font: var(--h1);
+}
+
+.title-md {
+  font: var(--h2);
+}
+
+.title-sm {
+  font: var(--h3);
+}
+
+.text-md {
+  font: var(--text-md);
+}
+
+.text-sm {
+  font: var(--text-sm);
+}
+
+.subtitle {
+  font: var(--subtitle);
+}
