@@ -18,16 +18,19 @@
   border: solid 1px purple;
   display: flex;
   justify-content: center;
+  position: relative;
 
   #codigo {
     border: solid 1px orange;
-    /* margin-top: auto; */
-    object-position: bottom;
-
+    margin-top: auto;
+    position: absolute;
+    bottom: 0px;
+    left: 420px;
   }
 }
 
-#foto-user {  
+#foto-user { 
+  border: solid 1px pink; 
   img {
     width: 96px;
     height: 96px;
