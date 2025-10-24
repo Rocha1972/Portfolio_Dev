@@ -8,7 +8,8 @@ body {
   font: var();
   color: var(--gray-100);
   background-color: var(--gray-400);
-  display: flex;
+  display: grid;
+  /* flex-direction: column; */
   justify-content: center;
 }
 
@@ -39,13 +40,15 @@ body {
   --h4: 600 20px/120% var(--font-inconsolata);
 }
 
-#container {
+#container-intro {
   border: solid 1px blue;
   max-width: 1366px;
-  /* box-sizing: border-box; */
-  /* margin-block: auto; */
-  
-  
   background-image: url(/assets/bg-intro.png);
   background-size: cover;
+}
+
+#container-projects {
+  border: solid 1px rgb(0, 255, 179);
+  max-width: 1366px;
+  background-color: var(--gray-500);
 }
