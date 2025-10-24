@@ -1,12 +1,15 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   font: var();
   color: var(--gray-100);
-  background-color: var(--gray-400);  
+  background-color: var(--gray-400);
+  display: flex;
+  justify-content: center;
 }
 
 :root {
@@ -34,4 +37,15 @@ body {
   --text-md: 400 16px/140% var(--font-maven);
   --text-sm: 400 14px/140% var(--font-maven);
   --h4: 600 20px/120% var(--font-inconsolata);
+}
+
+#container {
+  border: solid 1px blue;
+  max-width: 1366px;
+  /* box-sizing: border-box; */
+  /* margin-block: auto; */
+  
+  
+  background-image: url(/assets/bg-intro.png);
+  background-size: cover;
 }

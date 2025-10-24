@@ -1,21 +1,14 @@
-#container {
-  /* border: solid 1px blue; */
-  max-width: 1366px;
-  margin-block: auto;
-  
-  background-image: url(/assets/bg-intro.png);
-  background-size: cover;
-}
+
 
 #intro {
-  /* border: solid 1px green; */
+  border: solid 1px green;
   height: 750px;
-  width: 800px;
-  margin: auto;  
+  width: auto;
+  margin-top: 120px;
 }
 
 #avatar {
-  /* border: solid 1px purple; */
+  border: solid 1px purple;
   display: flex;
   justify-content: center;
   position: relative;
@@ -25,7 +18,7 @@
     margin-top: auto;
     position: absolute;
     bottom: 0px;
-    left: 421px;
+    left: 51.6%;
   }
 }
 
@@ -43,7 +36,7 @@
 }
 
 #apresentacao {
-  /* border: solid 1px red; */
+  border: solid 1px red;
   margin-top: 56px;
   text-align: center;
 
@@ -58,7 +51,7 @@
 }
 
 #tags {
-  /* border: solid 1px yellow; */
+  border: solid 1px yellow;
   display: flex;
   align-items: center;
   gap: 20px;
