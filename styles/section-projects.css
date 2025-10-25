@@ -1,0 +1,53 @@
+#header-projects {
+  border: solid 1px green;
+  /* height: 750px; */
+  text-align: center;
+  width: auto;
+  margin-top: 72px;
+  margin-left: 163px;
+  margin-right: 163px;
+  margin-bottom: 20px;
+
+  h4 {
+    margin-bottom: 8px;
+    color: var(--gray-100);
+  }
+}
+
+#grid {
+  border: solid 1px blue;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  justify-items: center;
+  margin-top: 32px;
+
+  img {
+    width: 306px;
+    height: 156px;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+}
+
+figure {
+  border: solid 1px red;
+  background-color: var(--gray-400);
+  padding: 12px 12px 112px;
+
+  figcaption {
+    margin-top: 12px;
+    text-align: left;
+
+    h3 {
+      font: var(--h3);
+      color: var(--gray-100);
+      margin-bottom: 8px;
+    }
+
+    p {
+      font: var(--text-sm);
+      color: var(--gray-200);
+    }
+  }
+}
