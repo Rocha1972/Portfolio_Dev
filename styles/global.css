@@ -51,4 +51,5 @@ body {
   border: solid 1px rgb(0, 255, 179);
   max-width: 1366px;
   background-color: var(--gray-500);
+  /* justify-content: center; */
 }
