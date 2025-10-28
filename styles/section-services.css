@@ -1,9 +1,9 @@
-#Projects {
+#services {
   display: grid;
   justify-content: center;
 }
 
-#header-projects {
+#header-servicess {
   border: solid 1px green;
   text-align: center;
   width: auto;
@@ -18,7 +18,8 @@
   }
 }
 
-#grid {
+
+#services {
   /* border: solid 1px blue; */
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -34,28 +35,4 @@
     border-radius: 8px;
     object-fit: cover;
   }
-
-  figure {
-    height: 280px;
-    background-color: var(--gray-400);
-    border-radius: 12px;
-    padding: 12px 12px 0;
-  
-    figcaption {
-      margin-top: 8px;
-      text-align: left;
-  
-      h3 {
-        font: var(--h3);
-        margin-top: 20px;
-        margin-bottom: 8px;
-      }
-  
-      p {
-        font: var(--text-sm);
-        color: var(--gray-200);
-      }
-    }
-  }
 }
-
