@@ -22,7 +22,7 @@
 }
 
 #grid {
-  border: solid 1px blue;
+  /* border: solid 1px blue; */
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
@@ -41,6 +41,7 @@
   figure {
     height: 280px;
     background-color: var(--gray-400);
+    border-radius: 12px;
     padding: 12px 12px 0;
   
     figcaption {
