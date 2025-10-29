@@ -1,5 +1,6 @@
 #services {
   border: solid 1px red;
+  background-color: var(--gray-600);
   display: grid;
   justify-content: center;
 }
