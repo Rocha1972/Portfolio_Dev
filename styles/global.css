@@ -53,3 +53,10 @@ body {
   background-color: var(--gray-500);
   /* justify-content: center; */
 }
+
+#container-contact {
+  border: solid 1px rgb(255, 0, 179);
+  max-width: 1366px;
+  background-image: url(/assets/bg-contacts.png);
+  background-size: cover;
+}

@@ -1,0 +1,40 @@
+#contact {
+  /* border: solid 1px blue; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 16px 64px 16px;
+}
+
+#header-contact {
+  border: solid 1px green;
+  text-align: center;
+  max-width: 420px;
+  margin-top: 128px;
+  margin-bottom: 48px;
+
+  h2 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+
+  .subtitle {
+    color: var(--purple);
+  }
+}
+
+#links-contact {
+  border: solid 1px orange;
+  gap: 16px;
+  margin-top: 48px;
+  margin-bottom: 200px;  
+}
+
+.socialbutton {
+  border: solid 1px red;
+  max-width: 400px;
+  background-color: var(--gray-400);
+  
+}
+
