@@ -33,7 +33,7 @@
   margin-bottom: 200px;  
 
   .socialbutton {
-    /* border: solid 1.5px black; */
+    /* border: solid 1.5px red; */
     border-radius: 8px;
     width: 400px;
     height: 68px;
@@ -53,7 +53,7 @@
     text-decoration: none;
 
     &:hover {
-      border: solid 1.5px var(--blue);
+      outline: solid 1.5px var(--blue);
       border-radius: 8px;
   
       #linkedin {
