@@ -24,20 +24,61 @@
 }
 
 #links-contact {
-  border: solid 1px orange;
+  /* border: solid 1px orange; */
   display: grid;
   max-width: 400px;
+  max-height: 320px;
   gap: 16px;
   margin-top: 48px;
-  margin-bottom: 200px;
+  margin-bottom: 200px;  
 
   .socialbutton {
-    border: solid 1px red;
-    
-    background-color: var(--gray-400);
+    /* border: solid 1.5px black; */
+    border-radius: 8px;
+    width: 400px;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+    gap: 16px;
+    background-color: var(--gray-400);    
+
+    img:nth-child(3) {
+      margin-left: auto;
+    }    
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+
+    &:hover {
+      border: solid 1.5px var(--blue);
+      border-radius: 8px;
+  
+      #linkedin {
+        content: url(../assets/linkedin-hover.svg);
+      }
+      
+      #instagram {
+        content: url(../assets/instagram-hover.svg);
+      }
+
+      #github {
+        content: url(../assets/github-hover.svg);
+      } 
+      
+      #e-mail {
+        content: url(../assets/e-mail-hover.svg);
+      }  
+    }
+
     
   }
+
 }
+
+
 
 
 
