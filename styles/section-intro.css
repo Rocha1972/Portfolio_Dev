@@ -1,5 +1,5 @@
 #intro {
-  border: solid 1px green;
+  /* border: solid 1px green; */
   /* height: 750px; */
   width: auto;
   margin-top: 120px;
@@ -9,7 +9,7 @@
 }
 
 #avatar {         
-  border: solid 1px purple;
+  /* border: solid 1px purple; */
   display: flex;
   justify-content: center;
   position: relative;
@@ -19,7 +19,7 @@
     margin-top: auto;
     position: absolute;
     bottom: 0px;
-    left: 51.6%;
+    left: 53%;
   }
 }
 
@@ -37,7 +37,7 @@
 }
 
 #apresentacao {
-  border: solid 1px red;
+  /* border: solid 1px red; */
   margin-top: 56px;
   text-align: center;
 
@@ -56,12 +56,12 @@
 }
 
 #header {
-  border: solid 1px orange;
+  /* border: solid 1px orange; */
   margin: 0px 180px 80px;  
 }
 
 #tags {
-  border: solid 1px yellow;
+  /* border: solid 1px yellow; */
   display: flex;
   align-items: center;
   margin: 0px 143px 0px;

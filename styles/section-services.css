@@ -1,12 +1,12 @@
 #services {
-  border: solid 1px red;
+  /* border: solid 1px red; */
   background-color: var(--gray-600);
   display: grid;
   justify-content: center;
 }
 
 #header-services {
-  border: solid 1px green;
+  /* border: solid 1px green; */
   text-align: center;
   width: auto;
   margin-top: 72px;
@@ -21,7 +21,7 @@
 }
 
 #grid-services {
-  border: solid 1px blue;
+  /* border: solid 1px blue; */
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
@@ -30,7 +30,7 @@
   max-width: 888px;
 
   .card-services {
-    border: solid 1px orange;
+    /* border: solid 1px orange; */
     padding: 20px;
   }
 
