@@ -41,22 +41,18 @@ body {
 }
 
 #container-intro {
-  /* border: solid 1px blue; */
   max-width: 1366px;
-  background-image: url("/assets/bg-intro.png");
+  background-image: url("../assets/bg-intro.png");
   background-size: contain;
 }
 
 #container-projects {
-  /* border: solid 1px rgb(0, 255, 179); */
   max-width: 1366px;
   background-color: var(--gray-500);
-  /* justify-content: center; */
 }
 
 #container-contact {
-  /* border: solid 1px rgb(255, 0, 179); */
   max-width: 1366px;
-  background-image: url("/assets/bg-contacts.png");
+  background-image: url("../assets/bg-contacts.png");
   background-size: contain;
 }
